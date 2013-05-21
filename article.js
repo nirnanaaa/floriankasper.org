@@ -57,7 +57,7 @@ readOne = function(page,cb) {
       },
       // hash it
       function(data, callback){
-        readPageTitle(page+'.md', function(info){
+        readPageTitle(page+'.md', function(error,info){
           callback(null, {content:data, info: info});
         })
       }
