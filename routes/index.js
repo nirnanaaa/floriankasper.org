@@ -21,7 +21,7 @@ exports.article = function(req, res){
   articles.readSingle(req.route.params.article, function(result){
     if(result){
       res.render('article', {
-        title: 'Article | Floriankasper',
+        title: result.info.name+' | Floriankasper',
         content: result.content,    
         description: result.info.name,
         pagetitle: result.info.name
