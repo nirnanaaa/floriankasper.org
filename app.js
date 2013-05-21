@@ -11,7 +11,6 @@ var express = require('express')
   , amqp = require('amqp')
   , async = require('async')
   , redis = require('redis')
-  , pg = require('pg')
   , request = require('request')
   , path = require('path');
 
@@ -89,7 +88,7 @@ Handlebars.registerHelper('datetime', function(obj, fn){
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'hbs');
-app.use(express.favicon());
+app.use(express.favicon('http://cdn.zyg.li/01/favicon.ico'));
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());

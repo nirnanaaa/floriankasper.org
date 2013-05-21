@@ -12,7 +12,6 @@
     "markdown" : "*",
     "hbs" : "*",
     "amqp" : "*",
-    "pg" : "*",
     "backbone" : "*",
     "redis" : "*",
     "underscore" : "*",
