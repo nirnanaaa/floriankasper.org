@@ -1,0 +1,9 @@
+body{
+  font:75%/1.5em Georgia,serif;
+  color:#000;
+}
+.header-font{
+  line-height: 100px;
+  height: 120px;
+  font-size: 100px;
+}

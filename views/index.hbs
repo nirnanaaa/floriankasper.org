@@ -1,0 +1,8 @@
+<ul>
+  {{#each articles}}
+    <li class="year">{{@key}}</li>
+    {{#each this}}
+    <li>{{datetime stats.ctime}} <a href="{{filename}}">{{name}}</a></li>
+    {{/each}}
+  {{/each}}
+</ul>

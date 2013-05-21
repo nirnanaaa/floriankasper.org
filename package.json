@@ -1,0 +1,28 @@
+{
+  "name": "Fka",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.4",
+    "jade": "*",
+    "sass": "*",
+    "markdown" : "*",
+    "hbs" : "*",
+    "amqp" : "*",
+    "pg" : "*",
+    "backbone" : "*",
+    "redis" : "*",
+    "underscore" : "*",
+    "request" : "*",
+    "async" : "*",
+    "mocha" : "*",
+    "ejs" : "*",
+    "node-uuid" : "*",
+    "marked" : "*",
+    "pygments" : "*"
+    
+  }
+}
