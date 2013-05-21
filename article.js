@@ -53,7 +53,7 @@ readOne = function(page,cb) {
       },
       // markdown it
       function(data, callback){
-        callback(null, marked(data));
+        callback(null, marked(data.toString()));
       },
       // hash it
       function(data, callback){
